@@ -1,0 +1,14 @@
+name: DonutTrade
+version: 1.0.0
+main: dev.donuttrade.DonutTrade
+api-version: '1.20'
+description: DonutSMP-style trade window
+commands:
+  trade:
+    description: Trade items with another player
+    usage: /trade <player>
+    permission: donuttrade.use
+permissions:
+  donuttrade.use:
+    description: Allows using /trade
+    default: true

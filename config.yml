@@ -1,0 +1,4 @@
+# seconds both players must keep "accept" pressed before the trade completes
+countdown-seconds: 3
+# seconds a trade request stays valid
+request-timeout-seconds: 60
